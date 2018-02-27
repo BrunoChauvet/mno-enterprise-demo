@@ -1483,7 +1483,7 @@ var ConnecApiService = (function () {
                 _this.config = res;
                 _this.restangular = _this.restangular.withConfig(function (RestangularProvider) {
                     RestangularProvider.setBaseUrl(_this.config['connec_endpoint'] + '/api/v2');
-                    RestangularProvider.setDefaultHeaders({ 'Content-Type': 'application/json', 'CONNEC-EXTERNAL-IDS': true });
+                    RestangularProvider.setDefaultHeaders({ 'Content-Type': 'application/json', 'Accept': 'application/json', 'CONNEC-EXTERNAL-IDS': true });
                     // RestangularProvider.setRequestSuffix('.json');
                     // Extract collection content
                     RestangularProvider.setResponseExtractor(function (response, operation) {
@@ -1651,7 +1651,7 @@ var MnoeApiService = (function () {
         this.restangular = restangular;
         this.restangular = this.restangular.withConfig(function (RestangularProvider) {
             RestangularProvider.setBaseUrl('/mnoe/jpi/v1');
-            RestangularProvider.setDefaultHeaders({ 'Content-Type': 'application/json' });
+            RestangularProvider.setDefaultHeaders({ 'Content-Type': 'application/json', 'Accept': 'application/json' });
             // RestangularProvider.setRequestSuffix('.json');
             // Extract collection content
             RestangularProvider.setResponseExtractor(function (response, operation) {

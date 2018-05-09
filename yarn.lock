@@ -6,10 +6,10 @@
   version "1.6.10"
   resolved "git+https://git@github.com/maestrano/impac-angular.git#79df9fca8bcf4b5b09ab2edb4b18c461c5700bd1"
 
-"mno-enterprise-angular@git+https://git@github.com/maestrano/mno-enterprise-angular.git#2.0":
+"mno-enterprise-angular@git+https://git@github.com/maestrano/mno-enterprise-angular.git#feature/subscription_workflow":
   version "2.0.0-dev"
-  resolved "git+https://git@github.com/maestrano/mno-enterprise-angular.git#bb3f3a2586a883484fb9721e8b3f74ba78aad0a3"
+  resolved "git+https://git@github.com/maestrano/mno-enterprise-angular.git#6f57a39b2811c08e2e7aaed5b4975af483d5d134"
 
-"mnoe-admin-panel@git+https://git@github.com/maestrano/mnoe-admin-panel.git#2.0":
+"mnoe-admin-panel@git+https://git@github.com/maestrano/mnoe-admin-panel.git#feature/subscription_workflow":
   version "2.0.0-dev"
-  resolved "git+https://git@github.com/maestrano/mnoe-admin-panel.git#ee8842c5f5512248e962e95e1bde4a18815495ef"
+  resolved "git+https://git@github.com/maestrano/mnoe-admin-panel.git#cb12228e88f97a949767cb8c12f02ec45d717ef9"

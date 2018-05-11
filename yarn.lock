@@ -8,7 +8,7 @@
 
 "mno-enterprise-angular@git+https://git@github.com/maestrano/mno-enterprise-angular.git#feature/subscription_workflow":
   version "2.0.0-dev"
-  resolved "git+https://git@github.com/maestrano/mno-enterprise-angular.git#6f57a39b2811c08e2e7aaed5b4975af483d5d134"
+  resolved "git+https://git@github.com/maestrano/mno-enterprise-angular.git#683a38ee8b18c15eb3af9c6d0547866f9c9a1e56"
 
 "mnoe-admin-panel@git+https://git@github.com/maestrano/mnoe-admin-panel.git#feature/subscription_workflow":
   version "2.0.0-dev"
